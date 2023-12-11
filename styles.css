@@ -1,0 +1,98 @@
+body {
+    background-color: azure;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background: black;
+    color: white;
+    font-size: xx-large;
+}
+
+nav {
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    background: black;
+    font-size: xx-large;
+}
+
+a {
+    margin: 30px;
+    color: white;
+}
+
+#plane {
+    padding-top: 10px;
+    max-width: 50%;
+    text-align: center;
+    margin: 3px;
+    float: left;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h2 {
+    font-size: xx-large;
+    color: black;
+}
+
+P {
+    font-size: x-large;
+    color: black;
+}
+
+
+table, td, th {
+    text-align: center;
+    color: black;
+    border: 4px solid black;
+    border-radius: 15px;
+}
+
+table {
+    width: 45%;
+    justify-content: center;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 75%;
+}
+
+.submit {
+    margin-top: 10px;
+    width: initial;
+    position: initial;
+}
+
+@media screen and (max-width: 600px) {
+    table, td, th{
+        border: 1px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    table {
+        display: none;
+    }
+}
+    
