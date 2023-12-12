@@ -3,4 +3,5 @@ Final Project
 12/11/23
 
 wireframe link: https://www.figma.com/file/D30GefwqBWcleJtKROCo7X/Final-Project?type=design&node-id=0%3A1&mode=design&t=xT0b3RuQQAsXyPR4-1
-github link:  https://github.com/TaylonEast/TaylonEast.github.io.git
+github repo link:  https://github.com/TaylonEast/TaylonEast.github.io.git
+github page link: https://tayloneast.github.io/
