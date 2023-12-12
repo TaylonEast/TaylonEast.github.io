@@ -83,6 +83,54 @@ textarea {
     position: initial;
 }
 
+#jazzmaster {
+    width: 20%;
+}
+
+#planeform {
+    width: 50%;
+}
+
+#grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'first-img first-img-text'
+    'second-img second-img-text'
+    'third-img third-img-text'
+}
+
+#first-img {
+    grid-area: first-img;
+    max-width: 300px;
+}
+
+#second-img {
+    grid-area: second-img;
+    max-width: 300px;
+}
+
+#third-img {
+    grid-area: third-img;
+    max-width: 300px;
+}
+
+#first-img-text {
+    grid-area: first-img-text;
+}
+
+#second-img-text {
+    grid-area: second-img-text;
+}
+
+#third-img-text {
+    grid-area: third-img-text;
+}
+
+.first-img-text, .second-img-text, .third-img-text {
+    font-size: x-large;
+}
+
 @media screen and (max-width: 600px) {
     table, td, th{
         border: 1px;
